@@ -1,4 +1,4 @@
-package com.om.infra.oauth;
+package com.example.infra.oauth;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

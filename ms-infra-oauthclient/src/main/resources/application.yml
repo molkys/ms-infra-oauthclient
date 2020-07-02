@@ -14,12 +14,12 @@ spring:
 spring:
   profiles: localhost
 logging: 
-  file: /opt/ms/INFRA/logs/ms-infra-oauthclient.log
+  file: /ms/INFRA/logs/ms-infra-oauthclient.log
   pattern:
     file: "%d %-5level [%thread] %logger : %msg%n"
     console: "%d %-5level [%thread] %logger : %msg%n"
   level: 
-    com.om.infra.oauth: DEBUG
+    com.example.infra.oauth: DEBUG
     org.springframework: ERROR
     org.springframework.boot.env.PropertySourcesLoader: ERROR
     org.springframework.boot.autoconfigure.security: TRACE
@@ -39,7 +39,7 @@ logging:
   pattern: 
     console: "%d %-5level [%thread] %logger : %msg%n"
   level: 
-    com.om.infra.oauth: WARN
+    com.example.infra.oauth: WARN
     org.springframework: ERROR
     org.springframework.boot.env.PropertySourcesLoader: ERROR
     org.springframework.boot.autoconfigure.security: ERROR
