@@ -1,0 +1,12 @@
+---
+applications:
+  - name: ms-infra-nfs-connector
+    #to generate a unique route and avoid name collisions
+    random-route: true
+    memory: 2G
+    path: target/ms-infra-nfs-connector.jar
+    #number of seconds that Cloud Foundry allocates for starting your application
+    timeout: 180
+    disk_quota: 2G
+    env:
+      JAVA_OPTS: -Djava.security.egd=file:///dev/urandom -Dspring.profiles.active=development -Dspring.cloud.config.uri=https://ms-cvc-configserver-interested-gorilla.dev.apps.pcfonemagnify.com
