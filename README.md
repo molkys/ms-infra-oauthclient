@@ -20,6 +20,18 @@ The workflow in which this application will be involved is deceived below:
 
 `Note`: see pom.xml files for additional libraries required when running under Java 11
 
-# Dependencies
+# Pre-Requisites
+Make sure you have already running the following applications in your local environment:
+
 * [Resources service](https://github.com/molkys/ms-infra-oauthresources)
 * [OAuth2 Server](https://github.com/molkys/ms-infra-oauthserver)
+
+# Starting up application
+###1. Import the Java code into your IDE (this tutorial uses STS as IDE)
+###2. Create a '''run configuration''' and run the application using '''localhost''' profile.
+
+<img src="/docs/images/startup_01.jpg" alt="Flowchart" width="250"/>
+
+<img src="/docs/images/startup_02.jpg" alt="Flowchart" width="250"/>
+
+ 
