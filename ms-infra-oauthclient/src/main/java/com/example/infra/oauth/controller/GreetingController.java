@@ -38,9 +38,9 @@ public class GreetingController {
 		
 		try {
 			
-			LOGGER.info("Invoking {}",String.format("http://localhost:%d/hello", 9090));
+			LOGGER.info("Invoking {}",String.format("http://localhost:%d/api/hello", 9090));
 			
-			message = oAuth2RestTemplate.getForObject(String.format("http://localhost:%d/hello", 9090), String.class);
+			message = oAuth2RestTemplate.getForObject(String.format("http://localhost:%d/api/hello", 9090), String.class);
 			
 			LOGGER.info("Response: {}",message);
 	        
