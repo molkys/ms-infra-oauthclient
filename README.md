@@ -19,3 +19,7 @@ The workflow in which this application will be involved is deceived below:
 * Cloud version: Greenwich.SR1
 
 `Note`: see pom.xml files for additional libraries required when running under Java 11
+
+# Dependencies
+* [Resources service](https://github.com/molkys/ms-infra-oauthresources)
+* [OAuth2 Server](https://github.com/molkys/ms-infra-oauthserver)
