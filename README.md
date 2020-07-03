@@ -17,4 +17,5 @@ The workflow in which this application will be involved is deceived below:
 * Java 8
 * Spring Boot 2.1.5.RELEASE
 * Cloud version: Greenwich.SR1
-'Note:' see pom.xml files for additional libraries required when running under Java 11
+
+`Note`: see pom.xml files for additional libraries required when running under Java 11
