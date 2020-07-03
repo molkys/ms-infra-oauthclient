@@ -2,4 +2,4 @@
  Spring Boot OAuth2 Client
 
 # Flowchart
- ![Overall design](/docs/images/OAuth2_Example.jpg | width=100)
+<img src="/docs/images/OAuth2_Example.jpg" alt="Flowchart" width="250"/>
