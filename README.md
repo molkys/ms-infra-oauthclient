@@ -21,17 +21,26 @@ The workflow in which this application will be involved is deceived below:
 `Note`: see pom.xml files for additional libraries required when running under Java 11
 
 # Pre-Requisites
-Make sure you have already running the following applications in your local environment:
+Make sure you already have running the following applications in your local environment:
 
 * [Resources service](https://github.com/molkys/ms-infra-oauthresources)
 * [OAuth2 Server](https://github.com/molkys/ms-infra-oauthserver)
 
 # Starting up application
-###1. Import the Java code into your IDE (this tutorial uses STS as IDE)
-###2. Create a '''run configuration''' and run the application using '''localhost''' profile.
+### 1. Import the Java code into your IDE (this tutorial uses STS as IDE)
+### 2. Create a '''run configuration''' and run the application using '''localhost''' profile.
 
-<img src="/docs/images/startup_01.jpg" alt="Flowchart" width="250"/>
+<img src="/docs/images/startup_01.png" alt="Flowchart" width="250"/>
 
-<img src="/docs/images/startup_02.jpg" alt="Flowchart" width="250"/>
+<img src="/docs/images/startup_02.png" alt="Flowchart" width="250"/>
 
- 
+### 3. Once the application is up and running, open a Web browser window and type '''http://localhost:8888/greeting'''
+
+<img src="/docs/images/startup_03.png" alt="Flowchart" width="250"/>
+
+### 4. Click '''Get Greeting''' button. If everything is set up correctly you should be able to successfully have been obtained a secure token from the server, consume a resource from Resources service application and see into the page the returned message from the consumed resource:
+
+<img src="/docs/images/startup_04.png" alt="Flowchart" width="250"/>
+
+
+
