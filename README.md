@@ -28,7 +28,7 @@ Make sure you already have running the following applications in your local envi
 
 # Starting up application
 #### 1. Import the Java code into your IDE (this tutorial uses STS as IDE)
-#### 2. Create a ```run configuration``` and run the application using ```localhost```as  profile.
+#### 2. Create a ```Run configuration``` and run the application using ```localhost``` as  profile.
 
 <img src="/docs/images/startup_01.png" alt="Flowchart" width="450"/>
 
