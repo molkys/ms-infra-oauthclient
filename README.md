@@ -27,18 +27,18 @@ Make sure you already have running the following applications in your local envi
 * [OAuth2 Server](https://github.com/molkys/ms-infra-oauthserver)
 
 # Starting up application
-### 1. Import the Java code into your IDE (this tutorial uses STS as IDE)
-### 2. Create a '''run configuration''' and run the application using '''localhost''' profile.
+* 1. Import the Java code into your IDE (this tutorial uses STS as IDE)
+* 2. Create a '''run configuration''' and run the application using '''localhost''' profile.
 
 <img src="/docs/images/startup_01.png" alt="Flowchart" width="450"/>
 
 <img src="/docs/images/startup_02.png" alt="Flowchart" width="450"/>
 
-### 3. Once the application is up and running, open a Web browser window and type ```http://localhost:8888/greeting```
+* 3. Once the application is up and running, open a Web browser window and type ```http://localhost:8888/greeting```
 
 <img src="/docs/images/startup_03.png" alt="Flowchart" width="500"/>
 
-### 4. Click ```Get Greeting``` button. If everything is set up correctly you should be able to successfully have been obtained a secure token from the server, consume a resource from Resources service application and see into the page the returned message from the consumed resource:
+* 4. Click ```Get Greeting``` button. If everything is set up correctly you should be able to successfully have been obtained a secure token from the server, consume a resource from Resources service application and see into the page the returned message from the consumed resource:
 
 <img src="/docs/images/startup_04.png" alt="Flowchart" width="500"/>
 
