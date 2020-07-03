@@ -26,7 +26,7 @@ Make sure you already have running the following applications in your local envi
 * [Resources service](https://github.com/molkys/ms-infra-oauthresources)
 * [OAuth2 Server](https://github.com/molkys/ms-infra-oauthserver)
 
-# Starting up application
+# Starting up the application
 #### 1. Import the Java code into your IDE (this tutorial uses STS as IDE)
 #### 2. Create a ```Run configuration``` and run the application using ```localhost``` as  profile.
 
